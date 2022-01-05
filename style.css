@@ -1,0 +1,55 @@
+.btn-outline-success{
+  background-color:pink;
+  color:black;
+  border-color:pink;
+}
+
+.btn-outline-success:hover{
+  background-color:black;
+  color:pink;
+  border-color:black;
+}
+
+footer{
+  background-color:black;
+  color:pink;
+}
+
+.first-line{
+  border-bottom: 1px solid #392d23;
+}
+
+
+.second-line a{
+  color: pink;
+  text-decoration:none;
+}
+
+.second-line a:hover{
+  text-decoration:underline;
+}
+
+.third-line{
+  display: none;
+}
+
+@media screen and (max-width:48rem) {
+  .first-line{
+    text-align:center;
+  }
+}
+
+@media screen and (max-width:48rem) {
+  .second-line{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+}
+
+@media screen and (max-width:48rem) {
+  .third-line{
+    display: block;
+    text-align:center;
+    border-top: 1px solid #392d23;
+  }
+}
